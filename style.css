@@ -5,7 +5,15 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: mediumturquoise;
+    background-image: url(/images/cat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 .container {
     text-align: center;
@@ -20,4 +28,5 @@ body {
     cursor: pointer;
     border-radius: 3px;
     border: none;
+    background-color: crimson;
 }
