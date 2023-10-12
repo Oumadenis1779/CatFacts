@@ -10,3 +10,7 @@ body {
 .container {
     text-align: center;
 }
+.cat-fact {
+    margin: 20px 0;
+    font-size: 18px;
+}
