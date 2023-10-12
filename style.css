@@ -7,3 +7,6 @@ body {
     margin: 0;
     background-color: mediumturquoise;
 }
+.container {
+    text-align: center;
+}
