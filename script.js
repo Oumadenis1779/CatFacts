@@ -11,7 +11,7 @@ function fetchCatFact() {
             catFactElement.innerText = data.data;
         })
         .catch(error => {
-            console.error('Error fetching cat facts:', error);
+            console.error('Error failed to fetching cat facts:', error);
             catFactElement.innerText = 'Failed to fetch cat facts. Please try again later.';
         });
 }
