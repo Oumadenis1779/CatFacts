@@ -1,7 +1,7 @@
 const catFactElement = document.getElementById('cat-fact');
 const refreshButton = document.getElementById('refresh-button');
 
-
+// fetch the data
 function fetchCatFact() {
     fetch("https://meowfacts.herokuapp.com/",{
         method :"GET",
